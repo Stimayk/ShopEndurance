@@ -40,7 +40,7 @@ namespace ShopEndurance
         {
             if (JsonEndurance == null || SHOP_API == null) return;
 
-            SHOP_API.CreateCategory(CategoryName, "Выносливость");
+            SHOP_API.CreateCategory(CategoryName, "Р’С‹РЅРѕСЃР»РёРІРѕСЃС‚СЊ");
 
             foreach (var item in JsonEndurance.Properties().Where(p => p.Value is JObject))
             {
